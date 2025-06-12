@@ -14,13 +14,13 @@ cd Intro-Jupyter-Tutorials
 ```
 ### 2. Set up your environment
 
-The only packages required for this tutorial are:
-`xarray`, `numpy`, `netcdf4`, and `cartopy`
+The packages required for this tutorial are:
+`xarray`, `numpy`, `netcdf4`, `dask`, and `cartopy`
 
 Let's set up a new Python [environment](https://svante.mit.edu/use_python.html#using-conda-w-package-manager-to-create-virtual-environments) using Anaconda on Svante. From the command line, run:
 1. Load `conda`
 ```bash
-module add anaconda3/2023.07
+module add anaconda3
 ```
 2. create and activate your environment
 ```bash
@@ -30,7 +30,7 @@ source activate «environment name»
 3. install necessary packages
 ```bash
 conda install jupyterlab
-conda install xarray numpy netcdf4 cartopy
+conda install xarray numpy netCDF4 dask cartopy
 ```
 
 ### 3. Launch Svante Open OnDemand (OOD)
