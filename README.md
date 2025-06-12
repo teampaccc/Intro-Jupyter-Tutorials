@@ -1,6 +1,6 @@
 # **Introductory Python for Climate Model Analysis Tutorials**
 
-This repository contains Jupyter Notebook tutorials that demonstrates how to work with NetCDF files using Python. 
+This repository contains Jupyter Notebook tutorials that demonstrate how to work with NetCDF files using Python. 
 
 ## 🚀 Quick Start
 
